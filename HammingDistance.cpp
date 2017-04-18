@@ -13,18 +13,18 @@ using namespace std;
 
 int main()
 {
-	int res, div, resY, divY, hamming = 0, x=1, y=4;
+	int res, divX, resY, divY, hamming = 0, x=1, y=4;
 
 	while ((x != 0) || (y != 0))
 	{
 		if (x != 0)
 		{
 			res = x % 2;        //res = 1, 0, 0
-			div = x / 2;        //div = 0, 0, 0
+			divX = x / 2;        //div = 0, 0, 0
 		}
 		else
 		{
-			div = 0;
+			divX = 0;
 			res = 0;
 		}
 
@@ -44,7 +44,7 @@ int main()
 			hamming++;        //1, 0, 1
 		}
 		
-		x = div;
+		x = divX;
 		y = divY;
 	}
     return 0;
