@@ -4,9 +4,6 @@ Given two integers x and y, calculate the Hamming distance.
 */
 //Author: Sandra Delatorre
 
-// ConsoleApplication1.cpp : Defines the entry point for the console application.
-//
-
 #include <cstdio>
 #include <iostream>
 using namespace std;
